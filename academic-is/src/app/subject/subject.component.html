@@ -1,0 +1,47 @@
+<div class="subject" *ngIf="subject">
+  <div class="subject-header">
+    <h1 class="subject-header-title">{{ subject.title }} ( {{ subject.code }} )</h1>
+  </div>
+  <div class="subject-details">
+    <ul class="subject-details-list">
+      <li class="subject-details-list-item">
+        <p class="subject-details-list-item-header">
+            Įvertinimai
+        </p>
+        <ul class="subject-details-list-item-grades">
+          <li *ngFor="let grade of subject.grades" class="subject-details-list-item-grade">
+            <span>{{ grade.name }} </span>
+            <p>{{ grade.grade }} 
+              <span>({{ grade.percentage }} )</span>
+            </p>
+          </li>
+        </ul>
+      </li>
+      <li class="subject-details-list-item">
+        <p class="subject-details-list-item-header">
+            Būtinas pasirengimas
+        </p>
+        <p class="subject-details-list-item-content">
+            {{ subject.description.preparation }}
+        </p>
+      </li>
+      <li class="subject-details-list-item">
+        <p class="subject-details-list-item-header">
+            Tikslas
+        </p>
+        <p class="subject-details-list-item-content">
+            {{ subject.description.goal }}
+        </p>
+      </li>
+      <li class="subject-details-list-item">
+        <p class="subject-details-list-item-header">
+            Anotacija
+        </p>
+        <p class="subject-details-list-item-content">
+            {{ subject.description.about }}
+        </p>
+      </li>     
+    </ul>
+  </div>
+</div>
+

@@ -1,0 +1,32 @@
+<div class="card">
+  <div class="card-content">
+      <div class="card-header">
+          <img class="card-header-image" src="./../../assets/images/viko_logo.gif">
+          <div class="card-header-title">
+                  <h1 class="card-header-title-upper">VILNIAUS KOLEGIJA</h1>
+                  <h2 class="card-header-title-lower">AKADEMINĖ INFORMACIJOS SISTEMA</h2>
+          </div>  
+      </div>
+      
+      <div class="card-login">
+          <div class="card-login-field">
+              <input class="card-login-field-input" type="text" id="user" required>
+              <label class="card-login-field-label" for="user">vartotojo vardas</label>
+          </div>
+
+          <div class="card-login-field">
+              <input class="card-login-field-input" type="password" id="password" required>
+              <label class="card-login-field-label" for="password">slaptažodis</label>
+          </div>
+      </div>
+
+      <button (click)="login()" class="card-button">Prisijungti</button>
+      <p class="card-notice">
+          Vartotojų vardai ir slaptažodžiai yra tokie patys kaip ir visoms Vilniaus 
+          kolegijos Kompiuterių centre teikiamoms informacinių technologijų paslaugoms 
+          (Moodle, prisijungimams prie elektroninio pašto ir kompiuterių auditorijose, 
+          intraneto ir kt.)
+      </p>
+  </div>
+</div>
+<app-squares></app-squares>

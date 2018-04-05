@@ -1,0 +1,830 @@
+{
+  "legend" : {
+    "KD": "kontrolinis darbas",
+    "EG": "egzaminas"
+  },
+  "2015": {
+    "1": [
+      {
+        "title": "Profesinė anglų kalba",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 6,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.21",
+        "description": {
+          "preparation": "Vidurinės mokyklos atestatas A arba B lygis anglų kalba",
+          "goal": "Gebėti nusakyti aparatūrinės įrangos funkcijas, apibūdinti kompiuterių tipus ir savybes; suprasti pagrindines programavimo sąvokas anglų kalba, taisyklingai vartoti ir versti terminus bei trumpinius.",
+          "about": "Tobulinami bendrinės anglų kalbos įgūdžiai, išmokoma suprasti profesinės anglų kalbos ypatumus, vartojant terminus, terminų junginius, santrumpas ir akronimus išeitomis temomis. Išugdomi gebėjimai laisvai reikšti mintis nagrinėjamomis profesinėmis temomis, remiantis ne tik vadovėlio, bet ir techninių žurnalų bei straipsnių iš Interneto medžiaga, ruošiant pagal ją įvairias užduotis. Įsisavinami verslo korespondencijos pagrindai, susipažįstama su kai kuriais dokumentais ir jų kaupimu duomenų bazėse."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Specialybės kalba",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Lietuvių kalba",
+          "goal": "Tobulinti taisyklingos bendrinės ir specialybės kalbos įgūdžius, gebėjimą taisyklinga kalba reikšti mintis raštu ir žodžiu kasdienėje bei darbo aplinkoje.",
+          "about": "Suteikiama žinių apie kalbos politiką, tvarkybą ir administravimą, bendrinės kalbos normas ir kodifikavimą. Praktiškai lavinami bendrinės kalbos tarties įgūdžiai, suteikiama teorinių ir praktinių žinių apie kirčiavimo dėsnius ir specialybės terminų kirčiavimą, supažindinama su specialybės terminų sudarymo principais. Praktiškai mokoma pastebėti ir remiantis šaltiniais taisyti žodyno, morfologijos ir sintaksės klaidas. Ugdomi gebėjimai taisyklingai žodžiu ir raštu reikšti mintis, susirasti reikiamos kalbinės informacijos."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Informacinių technologijų praktika",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Struktūrinis programavimas",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "title": "Aplinkos ir žmonių sauga",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 6,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.21",
+        "description": {
+          "preparation": "Vidurinės mokyklos atestatas A arba B lygis anglų kalba",
+          "goal": "Gebėti nusakyti aparatūrinės įrangos funkcijas, apibūdinti kompiuterių tipus ir savybes; suprasti pagrindines programavimo sąvokas anglų kalba, taisyklingai vartoti ir versti terminus bei trumpinius.",
+          "about": "Tobulinami bendrinės anglų kalbos įgūdžiai, išmokoma suprasti profesinės anglų kalbos ypatumus, vartojant terminus, terminų junginius, santrumpas ir akronimus išeitomis temomis. Išugdomi gebėjimai laisvai reikšti mintis nagrinėjamomis profesinėmis temomis, remiantis ne tik vadovėlio, bet ir techninių žurnalų bei straipsnių iš Interneto medžiaga, ruošiant pagal ją įvairias užduotis. Įsisavinami verslo korespondencijos pagrindai, susipažįstama su kai kuriais dokumentais ir jų kaupimu duomenų bazėse."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Tikimybių teorija ir matematinė statistika",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Lietuvių kalba",
+          "goal": "Tobulinti taisyklingos bendrinės ir specialybės kalbos įgūdžius, gebėjimą taisyklinga kalba reikšti mintis raštu ir žodžiu kasdienėje bei darbo aplinkoje.",
+          "about": "Suteikiama žinių apie kalbos politiką, tvarkybą ir administravimą, bendrinės kalbos normas ir kodifikavimą. Praktiškai lavinami bendrinės kalbos tarties įgūdžiai, suteikiama teorinių ir praktinių žinių apie kirčiavimo dėsnius ir specialybės terminų kirčiavimą, supažindinama su specialybės terminų sudarymo principais. Praktiškai mokoma pastebėti ir remiantis šaltiniais taisyti žodyno, morfologijos ir sintaksės klaidas. Ugdomi gebėjimai taisyklingai žodžiu ir raštu reikšti mintis, susirasti reikiamos kalbinės informacijos."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Algoritmai ir duomenų struktūros",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Kompiuterinė grafika",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Diskrečioji matematika",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Grafinė vartotojo sąsaja",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      }
+    ]
+  },
+  "2016": {
+    "1": [
+      {
+        "title": "Profesinė anglų kalba",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 6,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.21",
+        "description": {
+          "preparation": "Vidurinės mokyklos atestatas A arba B lygis anglų kalba",
+          "goal": "Gebėti nusakyti aparatūrinės įrangos funkcijas, apibūdinti kompiuterių tipus ir savybes; suprasti pagrindines programavimo sąvokas anglų kalba, taisyklingai vartoti ir versti terminus bei trumpinius.",
+          "about": "Tobulinami bendrinės anglų kalbos įgūdžiai, išmokoma suprasti profesinės anglų kalbos ypatumus, vartojant terminus, terminų junginius, santrumpas ir akronimus išeitomis temomis. Išugdomi gebėjimai laisvai reikšti mintis nagrinėjamomis profesinėmis temomis, remiantis ne tik vadovėlio, bet ir techninių žurnalų bei straipsnių iš Interneto medžiaga, ruošiant pagal ją įvairias užduotis. Įsisavinami verslo korespondencijos pagrindai, susipažįstama su kai kuriais dokumentais ir jų kaupimu duomenų bazėse."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Specialybės kalba",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Lietuvių kalba",
+          "goal": "Tobulinti taisyklingos bendrinės ir specialybės kalbos įgūdžius, gebėjimą taisyklinga kalba reikšti mintis raštu ir žodžiu kasdienėje bei darbo aplinkoje.",
+          "about": "Suteikiama žinių apie kalbos politiką, tvarkybą ir administravimą, bendrinės kalbos normas ir kodifikavimą. Praktiškai lavinami bendrinės kalbos tarties įgūdžiai, suteikiama teorinių ir praktinių žinių apie kirčiavimo dėsnius ir specialybės terminų kirčiavimą, supažindinama su specialybės terminų sudarymo principais. Praktiškai mokoma pastebėti ir remiantis šaltiniais taisyti žodyno, morfologijos ir sintaksės klaidas. Ugdomi gebėjimai taisyklingai žodžiu ir raštu reikšti mintis, susirasti reikiamos kalbinės informacijos."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Informacinių technologijų praktika",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Informacinių technologijų praktika",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "title": "Profesinė anglų kalba",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 6,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.21",
+        "description": {
+          "preparation": "Vidurinės mokyklos atestatas A arba B lygis anglų kalba",
+          "goal": "Gebėti nusakyti aparatūrinės įrangos funkcijas, apibūdinti kompiuterių tipus ir savybes; suprasti pagrindines programavimo sąvokas anglų kalba, taisyklingai vartoti ir versti terminus bei trumpinius.",
+          "about": "Tobulinami bendrinės anglų kalbos įgūdžiai, išmokoma suprasti profesinės anglų kalbos ypatumus, vartojant terminus, terminų junginius, santrumpas ir akronimus išeitomis temomis. Išugdomi gebėjimai laisvai reikšti mintis nagrinėjamomis profesinėmis temomis, remiantis ne tik vadovėlio, bet ir techninių žurnalų bei straipsnių iš Interneto medžiaga, ruošiant pagal ją įvairias užduotis. Įsisavinami verslo korespondencijos pagrindai, susipažįstama su kai kuriais dokumentais ir jų kaupimu duomenų bazėse."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Specialybės kalba",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Lietuvių kalba",
+          "goal": "Tobulinti taisyklingos bendrinės ir specialybės kalbos įgūdžius, gebėjimą taisyklinga kalba reikšti mintis raštu ir žodžiu kasdienėje bei darbo aplinkoje.",
+          "about": "Suteikiama žinių apie kalbos politiką, tvarkybą ir administravimą, bendrinės kalbos normas ir kodifikavimą. Praktiškai lavinami bendrinės kalbos tarties įgūdžiai, suteikiama teorinių ir praktinių žinių apie kirčiavimo dėsnius ir specialybės terminų kirčiavimą, supažindinama su specialybės terminų sudarymo principais. Praktiškai mokoma pastebėti ir remiantis šaltiniais taisyti žodyno, morfologijos ir sintaksės klaidas. Ugdomi gebėjimai taisyklingai žodžiu ir raštu reikšti mintis, susirasti reikiamos kalbinės informacijos."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Informacinių technologijų praktika",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Informacinių technologijų praktika",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      }
+    ]
+  },
+  "2017": {
+    "1": [
+      {
+        "title": "Profesinė anglų kalba",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 6,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.21",
+        "description": {
+          "preparation": "Vidurinės mokyklos atestatas A arba B lygis anglų kalba",
+          "goal": "Gebėti nusakyti aparatūrinės įrangos funkcijas, apibūdinti kompiuterių tipus ir savybes; suprasti pagrindines programavimo sąvokas anglų kalba, taisyklingai vartoti ir versti terminus bei trumpinius.",
+          "about": "Tobulinami bendrinės anglų kalbos įgūdžiai, išmokoma suprasti profesinės anglų kalbos ypatumus, vartojant terminus, terminų junginius, santrumpas ir akronimus išeitomis temomis. Išugdomi gebėjimai laisvai reikšti mintis nagrinėjamomis profesinėmis temomis, remiantis ne tik vadovėlio, bet ir techninių žurnalų bei straipsnių iš Interneto medžiaga, ruošiant pagal ją įvairias užduotis. Įsisavinami verslo korespondencijos pagrindai, susipažįstama su kai kuriais dokumentais ir jų kaupimu duomenų bazėse."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Specialybės kalba",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Lietuvių kalba",
+          "goal": "Tobulinti taisyklingos bendrinės ir specialybės kalbos įgūdžius, gebėjimą taisyklinga kalba reikšti mintis raštu ir žodžiu kasdienėje bei darbo aplinkoje.",
+          "about": "Suteikiama žinių apie kalbos politiką, tvarkybą ir administravimą, bendrinės kalbos normas ir kodifikavimą. Praktiškai lavinami bendrinės kalbos tarties įgūdžiai, suteikiama teorinių ir praktinių žinių apie kirčiavimo dėsnius ir specialybės terminų kirčiavimą, supažindinama su specialybės terminų sudarymo principais. Praktiškai mokoma pastebėti ir remiantis šaltiniais taisyti žodyno, morfologijos ir sintaksės klaidas. Ugdomi gebėjimai taisyklingai žodžiu ir raštu reikšti mintis, susirasti reikiamos kalbinės informacijos."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Informacinių technologijų praktika",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Informacinių technologijų praktika",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "title": "Profesinė anglų kalba",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 6,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.21",
+        "description": {
+          "preparation": "Vidurinės mokyklos atestatas A arba B lygis anglų kalba",
+          "goal": "Gebėti nusakyti aparatūrinės įrangos funkcijas, apibūdinti kompiuterių tipus ir savybes; suprasti pagrindines programavimo sąvokas anglų kalba, taisyklingai vartoti ir versti terminus bei trumpinius.",
+          "about": "Tobulinami bendrinės anglų kalbos įgūdžiai, išmokoma suprasti profesinės anglų kalbos ypatumus, vartojant terminus, terminų junginius, santrumpas ir akronimus išeitomis temomis. Išugdomi gebėjimai laisvai reikšti mintis nagrinėjamomis profesinėmis temomis, remiantis ne tik vadovėlio, bet ir techninių žurnalų bei straipsnių iš Interneto medžiaga, ruošiant pagal ją įvairias užduotis. Įsisavinami verslo korespondencijos pagrindai, susipažįstama su kai kuriais dokumentais ir jų kaupimu duomenų bazėse."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Specialybės kalba",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Lietuvių kalba",
+          "goal": "Tobulinti taisyklingos bendrinės ir specialybės kalbos įgūdžius, gebėjimą taisyklinga kalba reikšti mintis raštu ir žodžiu kasdienėje bei darbo aplinkoje.",
+          "about": "Suteikiama žinių apie kalbos politiką, tvarkybą ir administravimą, bendrinės kalbos normas ir kodifikavimą. Praktiškai lavinami bendrinės kalbos tarties įgūdžiai, suteikiama teorinių ir praktinių žinių apie kirčiavimo dėsnius ir specialybės terminų kirčiavimą, supažindinama su specialybės terminų sudarymo principais. Praktiškai mokoma pastebėti ir remiantis šaltiniais taisyti žodyno, morfologijos ir sintaksės klaidas. Ugdomi gebėjimai taisyklingai žodžiu ir raštu reikšti mintis, susirasti reikiamos kalbinės informacijos."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Informacinių technologijų praktika",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      },
+      {
+        "title": "Informacinių technologijų praktika",
+        "code": "H570B002",
+        "language": "lietuvių",
+        "credits": 3,
+        "passed": "IS",
+        "final_grade": 10,
+        "date": "2016.01.29",
+        "description": {
+          "preparation": "Informacinės technologijos, matematika, Operacinės sistemos",
+          "goal": "Informacinių technologijų teorinių žinių taikymas ir profesinių įgūdžių formavimas praktinėje veikloje",
+          "about": "Šiuolaikinių informacinių technologijų naudojimas įmonės ar įstaigos veikloje yra vienas rodiklių, atspindinčių personalo bei visos kompanijos potencialą ir kvalifikaciją. Todėl ypatingas dėmesys skiriamas darbuotojų sugebėjimui praktiškai taikyti informacinių technologijų teikiamus darbo metodus. Atlikdami praktikos užduotis, studentai praktiškai naudoja interneto teikiamas galimybes. Praktikoje studentai pasirenka tinkamiausią programinę įrangą užduočiai atlikti. Praktikos eiga ir rezultatai pateikiami praktikos ataskaitoje."
+        },
+        "grades": [
+          {
+            "name": "KD",
+            "grade": 10,
+            "percentage": "30%"
+          },
+          {
+            "name": "EG",
+            "grade": 10,
+            "percentage": "50%"
+          },
+          {
+            "name": "PU",
+            "grade": 9,
+            "percentage": "20%"
+          }
+        ]
+      }
+    ]
+  }
+}

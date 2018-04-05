@@ -1,0 +1,178 @@
+@import "./../../assets/less/default";
+@import "./../../assets/less/colors";
+
+.contacts {
+    border-collapse: collapse; 
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px #dfdfdf;
+    margin: 20px auto;
+    box-sizing: border-box;
+
+    @media screen and (max-width: @tablet){
+        margin: 10px;  
+    }
+   
+    &-header {
+        background: @blue; 
+        color: white;
+        padding: 20px 10px;
+
+        &-title { 
+            font-size: 14px;
+            text-transform: uppercase;
+            margin: 0;
+            font-weight: 400;
+        }
+    }
+
+    &-student {
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid #ccc;
+        margin: 10px 20px;
+        padding-bottom: 5px;
+
+        @media screen and (max-width: @tablet){
+            flex-direction: column;
+            align-items: center;
+        }
+
+    
+        &-picture {
+            border: 1px solid #005e96;
+            border-radius: 100%;
+            width: 150px;
+            height: 150px;
+            align-content: center;
+            padding: 3px;
+            box-sizing: border-box;
+            margin: 10px;
+            
+            & > img {
+                border-radius: 100%;
+                width: 100%;
+                height: auto;
+                margin: auto;
+            }
+        }
+
+        &-details {
+            margin: auto 20px;
+            font-size: 14px;
+            
+            @media screen and (max-width: @tablet){
+                margin: 0;
+                text-align: center
+            }
+
+            & > p {
+
+                @media screen and (max-width: @tablet){
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 0 10px 0;
+                }
+
+                & > span {
+                    color: #555;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    &-form {
+        margin: 10px 20px;
+        border-bottom: 1px solid #ccc;
+
+        &-field {
+            position: relative;
+            margin: 10px auto;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+
+            @media screen and (max-width: @tablet){
+                flex-direction: column-reverse;
+                align-items: flex-start;    
+                width: 100%;
+            }
+    
+            &-label {
+                color: @gray;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 400;
+                padding: 0;
+                flex: 1 0 0;
+            }
+    
+            &-input {
+                font-size: 13px;
+                font-weight: bold;
+                color: @gray;
+                outline: none;
+                border: 1px solid @light-gray;
+                padding: 10px 20px;
+                border-radius: 5px;
+                flex: 4 0 0;
+                box-sizing: border-box;
+
+
+                @media screen and (max-width: @tablet){
+                    width: 100%;
+                }
+
+                &::placeholder {
+                    color: @gray;
+                }
+    
+                &:hover {
+                    cursor: text;
+                }
+            
+                &:focus {
+                    border-color: @blue;
+                }
+            }
+        }
+        &-button {
+            margin: 0 0 10px auto;
+            display: flex;
+            text-align: center;
+            border-radius: 5px;
+            padding: 13px; 
+            background: @blue;
+            color: @white;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            border: 1px solid @blue;
+            flex: 4 0 0; 
+            transition: background-color .25s ease, color .25s ease;
+    
+            &:hover {
+                background: transparent;
+                color: @blue;
+            }
+
+            @media screen and (max-width: @tablet){
+                width: 100%;
+                justify-content: center;
+                
+            }
+            
+        }
+    }
+    
+    &-notice {
+        font-size: 10px;
+        color: @light-gray;
+        width: 80%;
+        text-align: center;
+        margin: 15px auto;    
+    }
+}

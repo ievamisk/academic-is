@@ -1,0 +1,128 @@
+@import "./../../assets/less/default";
+@import "./../../assets/less/colors";
+
+.semester {
+  margin: 20px auto;
+
+  @media screen and (max-width: @tablet) {
+    margin: 10px;
+  }
+
+  & > h1 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  & > p {
+    font-size: 14px;
+    margin: 0;
+  }
+}
+
+.table { 
+  border-collapse: collapse; 
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #dfdfdf;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100%;
+
+  &--mobile {
+    display: none;
+  }
+
+  @media screen and (max-width: @tablet) {
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: none;
+    width: unset;
+
+    &--mobile {
+      display: block;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      overflow: visible;
+    }
+
+    &--desktop {
+      display: none;
+    }
+  }
+
+  &-head {
+    background: @blue; 
+    color: white; 
+    font-size: 14px;
+
+    @media screen and (max-width: @tablet) {
+      width: 35%;
+      border-bottom: 1px solid #004e7a;
+      font-weight: 400;
+      padding: 10px;
+    }
+
+    &-row {
+      text-align: left;
+    }
+
+    &-cell {
+      padding: 20px 10px;
+      font-weight: 400;
+
+      &:not(:last-child) {
+        border-right: 1px solid #004e7a;
+      }
+    }  
+  }
+
+
+  &-body {
+    @media screen and (max-width: @tablet) {
+      margin-bottom: 10px;
+      box-shadow: 0 1px 2px #dfdfdf;
+      overflow: hidden;
+      border-radius: 5px;
+      }
+  }
+
+  &-row {
+    @media screen and (max-width: @tablet) {
+      display: flex;
+      flex-direction: row;
+    }
+
+    &:not(:last-child) {
+      border-bottom: 1px solid #ccc;
+
+      @media screen and (max-width: @tablet) {
+        border: none;
+      }
+    }
+
+    &:hover {
+      background-color: #f2f7fa;
+      cursor: pointer;
+    }
+  }
+
+  &-cell {
+    padding: 10px; 
+    text-align: left;
+    font-size: 14px;
+
+    @media screen and (max-width: @tablet) {
+      width: 65%;
+      box-sizing: border-box;
+      border-bottom: 1px solid #ccc;
+    }
+
+    &:not(:last-child) {
+      border-right: 1px solid #ccc;       
+    }
+
+
+  }
+}

@@ -1,0 +1,179 @@
+@import "./../../assets/less/default";
+@import "./../../assets/less/colors";
+
+
+.card {
+    position: absolute;
+    height: auto;
+    width: 25%;
+    margin: 0 auto;
+    background-color: @white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    @media screen and (max-width: @tablet){
+        height: 90%;
+        width: 85%;
+    }
+
+    &-content {
+        margin: auto 0;
+    }
+
+    &-header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+
+        &-image {
+            height: auto;
+            width: 90px;
+            margin: 10px;
+        }
+
+        &-title {
+            width: 70%;
+            text-align: center;
+            margin: 0 auto;
+
+            &-upper {
+                color: @blue;
+                margin: 0 auto;
+                font-weight: 300;
+                font-size: 20px
+            }
+
+            &-lower {
+                margin: 0 auto;
+                font-weight: 300;
+                font-size: 15px;
+                color: @gray;
+            }
+        }        
+    }
+
+    &-login {
+        width: 100%;
+
+        &-field {
+            position: relative;
+            margin: 10px auto;
+            display: flex;
+            flex-direction: column;
+
+            &-label {
+                color: @light-gray;
+                font-size: 12px;
+                text-transform: uppercase;
+                position: absolute;
+                z-index: 2;
+                left: 20px;
+                top: 14px;
+                padding: 0 2px;
+                background: @white;
+                transform: translateY(-20px);
+
+                -webkit-transition: -webkit-transform 100ms ease;
+                -moz-transition: -moz-transform 100ms ease;
+                -o-transition: -o-transform 100ms ease;
+                -ms-transition: -ms-transform 100ms ease;
+                transition: transform 100ms ease;
+                -webkit-transform: translateY(-20px);
+                -moz-transform: translateY(-20px);
+                -o-transform: translateY(-20px);
+                -ms-transform: translateY(-20px);
+                &:hover {
+                    cursor: text;
+                }
+            }
+
+            &-input {
+                font-size: 13px;
+                font-weight: bold;
+                color: @gray;
+                outline: none;
+                border: 1px solid @light-gray;
+                padding: 13px 20px;
+                border-radius: 5px;
+                position: relative;
+
+                &:hover {
+                    cursor: text;
+                }
+                
+
+                &:invalid + label {
+                    transform: translateY(0);
+                    -webkit-transform: translateY(0);
+                    -moz-transform: translateY(0);
+                    -o-transform: translateY(0);
+                    -ms-transform: translateY(0);
+                    
+                }
+
+                &:valid + label{
+                    color: @blue;
+                }
+
+                &:focus {
+                    border-color: @blue;
+
+                    & + label {
+                        color: @blue;
+                        -webkit-transform: translateY(-20px);
+                        -moz-transform: translateY(-20px);
+                        -o-transform: translateY(-20px);
+                        -ms-transform: translateY(-20px);
+                        transform: translateY(-20px);
+                    }
+                }
+            }
+        }
+    }
+
+    &-button {
+        margin-top: 5px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 13px; 
+        background: @blue;
+        color: @white;
+        width: 100%;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        border: 1px solid @blue;
+        transition: background-color .25s ease, color .25s ease;
+
+        &:hover {
+            background: transparent;
+            color: @blue;
+        }
+    }
+
+    &-notice {
+        font-size: 10px;
+        color: @light-gray;
+    }
+}
+
+.shadow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color .3s ease;
+}
+

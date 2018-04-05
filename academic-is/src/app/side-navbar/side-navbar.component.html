@@ -1,0 +1,75 @@
+<div class="sidenav">
+  <div class="sidenav-header">
+    <h1 class="sidenav-header-title">Akademinė IS</h1>
+    <i (click)="toggleOpen()" class="sidenav-header-burger" [ngClass]=" (open) ? 'ion-android-close' : 'ion-android-menu'"></i>
+  </div>
+  <div class="sidenav-menu" [ngStyle]="{'height.px': getNavHeight()}" [ngClass]="(open) ? '' : 'sidenav-menu--closed'">
+    <a href="#" routerLink = "/student/contacts" class="sidenav-menu-user">
+      <div (click)="toggleOpen()" class="sidenav-menu-user-profile">
+          <div class="sidenav-menu-user-profile-picture">
+            <img src="../../assets/images/profile-pic.jpg">
+          </div>
+          <div class="sidenav-menu-user-profile-details">
+              <div class="sidenav-menu-user-profile-details-name">John Doe</div>
+              <div class="sidenav-menu-user-profile-details-email">john.doe@gmail.com</div>
+          </div>
+      </div>
+    </a>
+    <div class="sidenav-menu-header">
+        <i class="ion-bookmark"></i>
+        <h1 class="sidenav-menu-header-title">Studijų planai</h1>
+    </div>
+    <ul class="sidenav-menu-list">
+      <li (click)="toggleActive(0)" class="sidenav-menu-course">
+        <div class="sidenav-menu-course-header" [ngClass]="(itemsActivity[0]) ? 'sidenav-menu-course-header--active' : ''">
+          <h1 class="sidenav-menu-course-header-title">2015/2016</h1>
+          <i [ngClass]="(itemsActivity[0]) ? 'ion-ios-arrow-down' : 'ion-ios-arrow-right'"></i>
+        </div>
+        <ul class="sidenav-menu-course-semester" [ngClass]="(itemsActivity[0]) ? 'sidenav-menu-course-semester--active' : ''">
+          <li (click)="toggleOpen()" class="sidenav-menu-course-semester-item">
+            <a href="#" routerLink = "/semester/2015/1" class="sidenav-menu-course-semester-item-link">Rudens semestras</a>
+          </li>
+          <li (click)="toggleOpen()" class="sidenav-menu-course-semester-item">
+            <a href="#" routerLink = "/semester/2015/2" class="sidenav-menu-course-semester-item-link">Pavasario semestras</a>
+          </li>
+        </ul>
+      </li>
+      <li (click)="toggleActive(1)" class="sidenav-menu-course">
+        <div class="sidenav-menu-course-header" [ngClass]="(itemsActivity[1]) ? 'sidenav-menu-course-header--active' : ''">
+          <h1 class="sidenav-menu-course-header-title">2016/2017</h1>
+          <i [ngClass]="(itemsActivity[1]) ? 'ion-ios-arrow-down' : 'ion-ios-arrow-right'"></i>
+        </div>
+        <ul class="sidenav-menu-course-semester" [ngClass]="(itemsActivity[1]) ? 'sidenav-menu-course-semester--active' : ''">
+          <li (click)="toggleOpen()" class="sidenav-menu-course-semester-item">
+            <a href="#" routerLink = "/semester/2016/1" class="sidenav-menu-course-semester-item-link">Rudens semestras</a>
+          </li>
+          <li (click)="toggleOpen()" class="sidenav-menu-course-semeste-item">
+            <a href="#" routerLink = "/semester/2016/2" class="sidenav-menu-course-semester-item-link">Pavasario semestras</a>
+          </li>
+        </ul>
+      </li>
+      <li (click)="toggleActive(2)" class="sidenav-menu-course">
+        <div class="sidenav-menu-course-header" [ngClass]="(itemsActivity[2]) ? 'sidenav-menu-course-header--active': ''">
+          <h1 class="sidenav-menu-course-header-title">2017/2018</h1>
+          <i [ngClass]="(itemsActivity[2]) ? 'ion-ios-arrow-down' : 'ion-ios-arrow-right'"></i>
+        </div>
+        <ul class="sidenav-menu-course-semester" [ngClass]="(itemsActivity[2]) ? 'sidenav-menu-course-semester--active' : ''">
+          <li (click)="toggleOpen()" class="sidenav-menu-course-semester-item">
+            <a href="#" routerLink = "/semester/2017/1" class="sidenav-menu-course-semester-item-link">Rudens semestras</a>
+          </li>
+          <li (click)="toggleOpen()" class="sidenav-menu-course-semester-item">
+            <a href="#" routerLink = "/semester/2017/2"class="sidenav-menu-course-semester-item-link">Pavasario semestras</a>
+          </li>
+        </ul>
+      </li>
+      
+    </ul>
+    <div class="sidenav-logout" (click)="logout()">
+      <div class="sidenav-logout-header">
+        <h1 class="sidenav-logout-header-title">Atsijungti</h1>
+        <i class="ion-log-out"></i>
+      </div>
+    </div>
+    
+  </div>
+</div>

@@ -1,0 +1,131 @@
+@import "./../../assets/less/default";
+@import "./../../assets/less/colors";
+
+
+.subject {
+    box-shadow: 0 1px 2px #dfdfdf;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: @tablet){
+        margin: 10px;
+    }
+
+    &-header {
+        background: @blue; 
+        color: white;
+        padding: 20px 10px;
+
+        &-title { 
+            font-size: 14px;
+            text-transform: uppercase;
+            margin: 0;
+            font-weight: 400;
+        }
+    }
+
+    &-details {
+        &-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin: 10px 20px;
+            
+            &-item {
+                border-bottom: 1px solid #ccc;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: row;
+                padding: 10px 0;
+
+                @media screen and (max-width: @tablet) {
+                    display: block;
+                }
+
+                &:last-child {
+                    border: none;
+                }
+                
+                &-header {
+                    color: @gray;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    font-weight: 400;
+                    padding: 0;
+                    margin: 0;
+                    line-height: 18px;
+                    flex: 1 0 0;
+                }
+                &-content, &-grades {
+                    padding: 0;
+                    margin: 0;
+                    flex: 4 0 0;
+                    line-height: 18px;
+                    font-size: 14px;
+                }
+
+                &-grades {
+                    display: flex;
+                    flex-flow: row wrap;
+                    align-items: flex-start;
+                    list-style-type: none;
+
+                    @media screen and (max-width: @tablet){
+                        justify-content: space-around;
+                    }
+                }
+
+                &-grade {
+                    position: relative;
+                    background-color: #d9d9d9;
+                    border-radius: 20px;
+                    justify-content: space-between;
+                    margin-right: 10px;
+                    width: 100px;
+
+                    @media screen and (max-width: @tablet){
+                        width: 85px;
+                        margin-bottom: 5px;
+                        margin-right: 0;
+                        margin-top: 5px;
+
+                    }
+                    
+                    & > span {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background-color: #ce9e00;
+                        color: white;
+                        border-radius: 50%;
+                        margin: 0;
+                        padding: 8px;;
+                        font-size: 14px;
+
+                        @media screen and (max-width: @tablet){
+                            padding: 5px;
+                        }
+                    }
+                    & > p {
+                        margin: 0;
+                        padding: 8px;
+                        width: 100%;
+                        text-align: center;
+                        padding-left: 15px;
+                        & > span {
+                            color: @gray;
+                        }
+
+                        @media screen and (max-width: @tablet){
+                            padding: 5px;
+                            padding-left: 13px;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

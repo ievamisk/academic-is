@@ -1,0 +1,9 @@
+<app-login *ngIf="!signed" (change)="onChange($event)"></app-login>
+<div *ngIf="signed" class="container">
+    <div class="container-sidenav">
+        <app-side-navbar (change)="onChange($event)"></app-side-navbar>
+    </div>
+    <div class="container-content">
+        <router-outlet></router-outlet>
+    </div>
+</div>

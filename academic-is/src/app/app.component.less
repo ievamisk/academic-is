@@ -1,0 +1,38 @@
+@import "./../assets/less/default";
+@import "./../assets/less/colors";
+
+.container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    @media screen and (max-width: @tablet){
+        flex-direction: column;    
+    }
+
+    &-sidenav {
+        @media screen and (max-width: @tablet){
+            top: 0;
+            left: 0;
+            position: fixed;
+            overflow: visible;
+            z-index: 10;
+            width: 100%;
+        }
+    
+    }
+
+    &-content {
+        width: 100%;
+        padding: 20px 40px 0px 320px;
+
+        @media screen and (max-width: @tablet){
+            padding-left: 0;  
+            padding-top: 64px;
+        }
+    }
+}

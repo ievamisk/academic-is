@@ -1,0 +1,172 @@
+@import "./../../assets/less/default";
+@import "./../../assets/less/colors";
+
+
+.squares {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+	background: linear-gradient(to bottom, #005e96 0%,#7db9e8 100%);
+
+	
+	li {
+		position: absolute;
+		list-style: none;
+		display: block;
+		background-color: fade(@white, 10%);
+		
+		-webkit-animation: square 6s infinite;
+		animation: square 6s infinite;
+		
+		-webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        bottom: -100px;
+		
+		&:nth-child(1){
+            left: 5%;
+            width: 50px;
+            height: 50px;
+		}
+		
+		&:nth-child(2){
+			left: 10%;
+			width: 40px;
+			height: 40px;
+			
+			animation-delay: 3s;
+		}
+		
+		&:nth-child(3){
+            left: 10%;
+            
+            width: 80px;
+            height: 80px;
+            
+			animation-delay: 1s;
+			background-color: fade(@white, 25%);
+
+
+		}
+		
+		&:nth-child(4){
+			left: 15%;
+			width: 60px;
+			height: 60px;
+			
+            animation-delay: 4s;
+			
+			background-color: fade(@white, 15%);
+		}
+		
+		&:nth-child(5){
+			left: 20%;
+			width: 80px;
+			height: 80px;
+
+			animation-delay: 5s;
+			background-color: fade(@white, 25%);
+
+		}
+		
+		&:nth-child(6){
+			left: 20%;
+			width: 60px;
+			height: 60px;
+			
+            animation-delay: 2s;
+			background-color: fade(@white, 25%);
+		}
+		
+		&:nth-child(7){
+			left: 25%;
+			width: 40px;
+			height: 40px;
+			
+			animation-delay: 1s;
+		}
+		
+		&:nth-child(8){
+			left: 35%;
+			width: 60px;
+			height: 60px;
+			
+			animation-delay: 4s;
+		}
+		
+		&:nth-child(9){
+			left: 45%;
+			width: 80px;
+			height: 80px;
+			
+			animation-delay: 2s;
+			background-color: fade(@white, 25%);
+		}
+		
+		&:nth-child(10){
+			left: 65%;
+			width: 70px;
+			height: 70px;
+			
+			animation-delay: 3s;
+			background-color: fade(@white, 25%);
+
+        }
+        &:nth-child(11){
+            left: 75%;
+            width: 70px;
+			height: 70px;
+
+			animation-delay: 1s;            
+		}
+		
+		&:nth-child(12){
+			left: 85%;
+			width: 60px;
+			height: 60px;
+			
+			animation-delay: 5s;
+		}
+		
+		&:nth-child(13){
+			left: 85%;
+			width: 40px;
+			height: 40px;
+			animation-delay: 2s;
+		}
+		
+		&:nth-child(14){
+			left: 90%;
+			width: 70px;
+			height: 70px;
+			
+			background-color: fade(@white, 15%);
+		}
+		
+		&:nth-child(15){
+            left: 95%;
+            width: 60px;
+			height: 60px;
+
+			animation-delay: 3s;
+		}
+	}
+	@media screen and (max-width: @mobile)
+    {
+        display: none;
+    }
+}
+
+@-webkit-keyframes square {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-1000px) rotate(200deg); }
+}
+@keyframes square {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-1000px) rotate(200deg); }
+
+}

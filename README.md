@@ -1,5 +1,5 @@
 ## About
-* It's a academic information system design where student can see their grades
+* It's a academic information system design created by me where student can see their grades
 * Created using HTML, CSS(LESS), Angular5
 * Responsive
 
